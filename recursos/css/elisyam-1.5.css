@@ -1,0 +1,203 @@
+/*****************  PARA REPORTES DE PDF  ********************/
+
+.tablaData{
+  width: 100%;
+  border-radius: 2px; 
+  border-collapse: collapse;
+  border: 0px solid #dedede;
+  background: white;
+  font-size: 12px;
+}
+.tablaData th {
+  background: #dedede;
+  /*height: 20px;*/
+  font-weight: lighter;
+  color: black;
+  border: 1px solid #fff;
+  box-shadow: inset 0px 1px 2px #dedede;
+  transition: all 0.2s;
+  text-align: center;
+}
+.tablaData tr {
+  border-bottom: 0px solid #cccccc;
+}
+.tablaData tr:last-child {
+  border-bottom: 0px;
+}
+.tablaData td {
+  border-right: 0px solid #cccccc;
+  padding: 5px;
+  transition: all 0.2s;
+  border-bottom: 0px solid #cccccc;
+}
+.tablaData td:last-child {
+  border-right: 0px;
+}
+.tablaData td.selected {
+  background: #dedede;
+  z-index: ;
+}
+/*****************  PARA REPORTES DE PDF  ********************/
+.titREP{
+  border: 1px solid #709C4C;/*008E65*/
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+.titREP2{
+  border: 1px solid #709C4C;/*008E65*/
+  border-radius: 5px;
+  padding: 5px;
+}
+.tablaLIST{
+  width: 100%;
+  border-radius: 2px; 
+  border-collapse: collapse;
+  border: 1px solid #dedede;
+  background: white;
+  font-size: 11px;
+}
+.tablaLIST th {
+  background: #dedede;
+  /*height: 20px;*/
+  font-weight: lighter;
+  color: black;
+  border: 1px solid #fff;
+  text-align: center;
+}
+.tablaLIST tr {
+  border-bottom: 1px solid #cccccc;
+}
+.tablaLIST tr:last-child {
+  border-bottom: 0px;
+}
+.tablaLIST td {
+  border-right: 1px solid #cccccc;
+  padding: 5px;
+  transition: all 0.2s;
+  border-bottom: 1px solid #cccccc;
+  vertical-align: top;
+}
+.tablaLIST td:last-child {
+  border-right: 0px;
+}
+.tablaLIST td.selected {
+  background: #dedede;
+  z-index: ;
+}
+/*************************************************************/
+.tablaLIST2{
+  width: 100%;
+  border-radius: 2px; 
+  border-collapse: collapse;
+  border: 1px solid #dedede;
+  background: white;
+  font-size: 11px;
+}
+.tablaLIST2 th {
+  background: #dedede;
+  height: 30px;
+  font-weight: lighter;
+  color: black;
+  border: 1px solid #fff;
+  box-shadow: inset 0px 1px 2px #dedede;
+  transition: all 0.2s;
+  text-align: center;
+}
+.tablaLIST2 tr {
+  border-bottom: 1px solid #cccccc;
+}
+.tablaLIST2 tr:last-child {
+  border-bottom: 0px;
+}
+.tablaLIST2 td {
+  border-right: 1px solid #cccccc;
+  height: 30px;
+  transition: all 0.2s;
+  border-bottom: 1px solid #cccccc;
+}
+.tablaLIST2 td:last-child {
+  border-right: 0px;
+}
+.tablaLIST2 td.selected {
+  background: #dedede;
+  z-index: ;
+}
+/*************************************************************/
+.tablaLIST3{
+  width: 100%;
+  border-radius: 2px; 
+  border-collapse: collapse;
+  border: 1px solid #dedede;
+  background: white;
+  font-size: 12px;
+}
+.tablaLIST3 th {
+  background: #dedede;
+  height: 40px;
+  font-weight: lighter;
+  color: black;
+  border: 1px solid #fff;
+  box-shadow: inset 0px 1px 2px #dedede;
+  transition: all 0.2s;
+  text-align: center;
+}
+.tablaLIST3 tr {
+  border-bottom: 1px solid #cccccc;
+}
+.tablaLIST3 tr:last-child {
+  border-bottom: 0px;
+}
+.tablaLIST3 td {
+  border-right: 1px solid #cccccc;
+  height: 40px;
+  transition: all 0.2s;
+  border-bottom: 1px solid #cccccc;
+  padding: 5px;
+}
+.tablaLIST3 td:last-child {
+  border-right: 0px;
+}
+.tablaLIST3 td.selected {
+  background: #dedede;
+  z-index: ;
+}
+
+/*****************  PARA REPORTES DE PDF VERIFICACION  ********************/
+
+.tablaLIST_Veri{
+  width: 100%;
+  border-radius: 2px; 
+  border-collapse: collapse;
+  border: 1px solid #dedede;
+  background: white;
+  font-size: 11px;
+}
+.tablaLIST_Veri th {
+  background: #dedede;
+  /*height: 20px;*/
+  font-weight: lighter;
+  color: black;
+  border: 1px solid #fff;
+  text-align: center;
+}
+.tablaLIST_Veri tr {
+  border-bottom: 1px solid #cccccc;
+}
+.tablaLIST_Veri tr:last-child {
+  border-bottom: 0px;
+}
+.tablaLIST_Veri td {
+  border-right: 1px solid #cccccc;
+  padding: 0px;
+  transition: all 0.2s;
+  border-bottom: 1px solid #cccccc;
+  vertical-align: top;
+}
+.tablaLIST_Veri td:last-child {
+  border-right: 0px;
+}
+.tablaLIST_Veri td.selected {
+  background: #dedede;
+  z-index: ;
+}
